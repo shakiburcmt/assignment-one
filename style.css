@@ -82,3 +82,33 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+.human-rights {
+    display: flex;
+    justify-content: center;
+}
+
+#one {
+    margin: 10px 20px;
+    padding: 50px 50px;
+    background-color: aqua;
+    width: 33.33%;
+}
+
+#two {
+    margin: 10px 20px;
+    padding: 50px 50px;
+    background-color: bisque;
+    width: 33.33%;
+}
+
+#three {
+    margin: 10px 20px;
+    padding: 50px 50px;
+    background-color: greenyellow;
+    width: 33.33%;
+}
+
+.left {
+    padding-right: 100px;
+}
