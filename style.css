@@ -29,8 +29,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
+    background-size: cover;
 
 }
+
 
 #font {
     font-size: 40px;
@@ -40,4 +42,43 @@ body {
 #paad {
     padding: 5px 400px;
     text-align: justify;
+    color: black;
+}
+
+.contribution {
+    display: flex;
+}
+
+.flexible-container {
+    width: 50%;
+
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+
+}
+
+.amount h3 {
+    margin: 5px 30px;
+    padding: 40px 40px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#size {
+    font-size: 40px;
+}
+
+#focus {
+    border: 5px solid;
+    color: blue;
+    background-color: aqua;
+}
+
+#underline {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
