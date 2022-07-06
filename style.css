@@ -1,26 +1,32 @@
 body {
     font-family: 'Roboto Slab', serif;
-    color: white;
     text-align: center;
 
 }
 
 .font-size {
     font-size: 50px;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(yellow, orange);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    color: black;
+}
+
+#padding {
+    padding: 5px 400px;
+    text-align: justify;
+    color: white;
 }
 
 .top-banner {
     background-image: url(images/donation13.jpg);
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-position: center;
 
-.button-one {
-    text-decoration: none;
-    background-image: linear-gradient(yellow, tomato);
-    padding: 10px 40px;
-    font-weight: 900;
-    border-radius: 10px;
-    color: black;
 }
