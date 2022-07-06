@@ -28,5 +28,16 @@ body {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    height: 400px;
 
+}
+
+#font {
+    font-size: 40px;
+    color: black;
+}
+
+#paad {
+    padding: 5px 400px;
+    text-align: justify;
 }
