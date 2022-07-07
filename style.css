@@ -50,7 +50,9 @@ body {
 }
 
 .flexible-container {
-    width: 50%;
+    width: 30%;
+    padding: 20px;
+
 
 }
 
@@ -78,9 +80,9 @@ body {
 }
 
 #underline {
-    text-decoration: underline;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    border-bottom: 1px solid;
+    padding: 0px 20px;
+
 }
 
 .human-rights {
@@ -93,6 +95,7 @@ body {
     padding: 50px 50px;
     background-color: aqua;
     width: 33.33%;
+    border-radius: 10px;
 }
 
 #two {
@@ -100,6 +103,7 @@ body {
     padding: 50px 50px;
     background-color: bisque;
     width: 33.33%;
+    border-radius: 10px;
 }
 
 #three {
@@ -107,8 +111,30 @@ body {
     padding: 50px 50px;
     background-color: greenyellow;
     width: 33.33%;
+    border-radius: 10px;
 }
 
 .left {
     padding-right: 100px;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.flexi {
+    width: 100%;
+}
+
+#yellow {
+    color: tomato;
+
+}
+
+#white {
+    color: white;
+}
+
+.footer {
+    background: black;
 }
