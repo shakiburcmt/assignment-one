@@ -138,3 +138,13 @@ body {
 .footer {
     background: black;
 }
+
+#sec-one {
+    background-color: rgb(234, 138, 13);
+    padding: 10px 20px;
+
+}
+
+.color {
+    color: blueviolet;
+}
